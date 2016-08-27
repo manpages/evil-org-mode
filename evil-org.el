@@ -152,6 +152,8 @@ FUN function callback"
   "c"  'org-archive-subtree
   "l"  'evil-org-open-links
   "o"  'evil-org-recompute-clocks
+  "s"  'org-clock-in
+  "f"  'org-clock-out
 )
 
 ;; normal & insert state shortcuts.
