@@ -150,10 +150,15 @@ FUN function callback"
   "t"  'org-show-todo-tree
   "a"  'org-agenda
   "c"  'org-archive-subtree
-  "l"  'evil-org-open-links
+  "."  'evil-org-open-links
   "o"  'evil-org-recompute-clocks
   "s"  'org-clock-in
   "f"  'org-clock-out
+  "j"  'org-forward-heading-same-level
+  "k"  'org-backward-heading-same-level
+  "l"  'outline-next-visible-heading
+  "h"  'outline-previous-visible-heading
+  "u"  'outline-up-heading
 )
 
 ;; normal & insert state shortcuts.
