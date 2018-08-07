@@ -131,7 +131,7 @@ FUN function callback"
 	  'org-backward-heading-same-level)
   "gl" 'outline-next-visible-heading
   "t" 'org-todo
-  "T" '(lambda () (interactive) (evil-org-eol-call (lambda() (org-insert-todo-heading nil))))
+  "T" 'org-todo
   "H" 'org-shiftleft
   "J" 'org-shiftdown
   "K" 'org-shiftup
@@ -159,6 +159,9 @@ FUN function callback"
   "l"  'outline-next-visible-heading
   "h"  'outline-previous-visible-heading
   "u"  'outline-up-heading
+  "q"  'org-capture
+  "g"  'org-clock-goto
+  "r"  'org-resolve-clocks
 )
 
 ;; normal & insert state shortcuts.
